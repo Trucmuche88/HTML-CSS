@@ -4,40 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-
+<header>
     <div class="header">
-        <ul>
-            <li><a href="#"><img src="img/logo.svg" alt="logo"></a></li>
-            <li><a href="#"><img src="img/loupe.svg" alt="search"></a></li>
-            <li><a href="#"><img src="img/menu.svg" alt="menu"></a></li>
-            <li><a href="#"><img src="img/profil.svg" alt="profil"></a></li>
-            <li><a href="#"><img src="img/cart.svg" alt="cart"></a></li>
-        </ul>
-    </div>
+        <div class="header__left">
 
-    <div class="top-page">
-        <img src="img/img-topPage.png" alt="photo">
-        <p class="title-topPage"><span class="theBrand">THE BRAND</span> OF LUXERIOUS FASHION</p>
+            <a href="#"><img src="img/logo.svg" alt="logo"></a>
+            <a href="#"><img src="img/loupe.svg" alt="search"></a>
+        
+        </div>
+        <div class="header__right">
+        
+            <a href="#"><img src="img/menu.svg" alt="menu"></a>
+            <a href="#"><img src="img/profil.svg" alt="profil"></a>
+            <a href="#"><img src="img/cart.svg" alt="cart"></a>
+        
+        </div>
     </div>
+</header>
 
+<section class="top-page">
+        <img class="top-page__img" src="img/img-topPage.png" alt="photo">
+        <p class="title-topPage"><span class="theBrand">THE BRAND</span> OF LUXERIOUS <span class="pink">FASHION</span></p>
+</section>
+<main>
+<section class="container-deals">
     <div class="deals">
 
         <div class="deal-1">
             <img src="img/deal-1.jpg" alt="photo">
-            <p>30% OFF <span class="pink">FOR WOMEN</span></p>
+            <p>30% OFF</p>
+            <h3 class="pink">FOR WOMEN</h3>
         </div>
 
         <div class="deal-2">
             <img src="img/deal-2.jpg" alt="photo">
-            <p>HOT DEAL <span class="pink">FOR MEN</span></p>
+            <p>HOT DEAL </p>
+            <h3 class="pink">FOR MEN</h3>
         </div>
 
         <div class="deal-3">
             <img src="img/deal-3.jpg" alt="photo">
-            <p>NEW ARRIVALS <span class="pink">FOR KIDS</span></p>
+            <p>NEW ARRIVALS </p>
+            <h3 class="pink">FOR KIDS</h3>
         </div>
 
         <div class="deal-4"> 
@@ -46,12 +58,13 @@
         </div>   
 
     </div>
-
-    <div class="items">
-
+</section>
+<section>
+    
+    <div class="items"></div>
         <h2>Featured Items</h2>
         <p>Shop for items based on what we featured in this week</p>
-
+<br>
         <div class="img-items">
 
             <div class="item-1">
@@ -100,55 +113,60 @@
     </div>
             <a href="#"><p class="browse">Browse All Products</p></a>
     </div>
-
+</section>
+<section>
     <div class="offers">
-        <ul>
-            <div class="offer-1">
-                <li>
+    
+            <div class="offer__delivery">
+            
                     
                     <img src="img/truck.svg" alt="image">
                     <p>Free delivery</p>
                     <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
                 
-                </li>
+                
             </div>
-            <div class="offer-2">
-                <li>
+            <div class="offer__discount">
+            
                     <img src="img/por.svg" alt="image">
-                    <p>Free delivery</p>
-                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-                </li>
-            </div>
-
-            <div class="offer-3">
-                <li>
-                    
-                    <img src="img/crown.svg" alt="image">
-                    <p>Free delivery</p>
+                    <p>Sales & discounts</p>
                     <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
                 
-                </li>
+            </div>
+
+            <div class="offer__assurance">
+            
+                    
+                    <img src="img/crown.svg" alt="image">
+                    <p>Quality assurance</p>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                
+                
             </div>
         </ul>
     </div>
-
+</section>
     <div class="sub">
 
         <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
         <p>SUBSCRIBE FOR OUR NEWLETTER AND PROMOTION</p>
 
     </div>
-
+</main>
+<footer>
     <div class="footer">
 
         <p>© 2021  Brand  All Rights Reserved.</p>
-        <ul>
-            <li><a href="#"><img src="img/face.svg" alt="facebook"></a></li>
-            <li><a href="#"><img src="img/inst.svg" alt="instagram"></a></li>
-            <li><a href="#"><img src="img/pin.svg" alt="pinterest"></a></li>
-            <li><a href="#"><img src="img/twitt.svg" alt="twitter"></a></li>
-        </ul>
-    </div>
 
+        <div class="footer__logos">   
+
+            <a href="#"><img class="footer__logo-f" src="img/face.svg" alt="facebook"></a>
+            <a href="#"><img class="footer__logo-i" src="img/inst.svg" alt="instagram"></a>
+            <a href="#"><img class="footer__logo-p" src="img/pin.svg" alt="pinterest"></a>
+            <a href="#"><img class="footer__logo-t" src="img/twitt.svg" alt="twitter"></a>
+
+        </div> 
+    </div>
+</footer>
 </body>
 </html>

@@ -1,0 +1,55 @@
+* {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+main {
+    width: 1140px;
+}
+.top-page {
+    display: flex;
+    background-color: #F1E4E6;
+    ;
+}
+.top-page__img {
+    width: 800px;
+    height: 764px;
+}
+
+.title-topPage {
+    line-height: 800px;
+}
+.pink {
+    color: rgb(245, 83, 110);
+}
+
+.img-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item-1 {
+    width: 350px;
+}
+
+.deals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offers {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
