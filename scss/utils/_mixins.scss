@@ -1,0 +1,11 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@mixin size-deal {
+    width: 360px;
+    height: 260px;
+    margin: 65px 0px 30px;
+}
