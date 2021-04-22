@@ -1,0 +1,23 @@
+.item {
+    &__img {
+        margin: 0px 0px 25px;
+    }
+
+    &__name {
+        text-align: left;
+    font-weight: 400;
+    color: #000000;
+    width: 315px;
+    }
+
+    &__txt {
+        font-weight: 300;
+    font-size: 14px;
+    color: #5D5D5D;
+    margin: 12px 0px 0px;
+    }
+
+    &__price {
+        margin: 0px;
+    }
+}
