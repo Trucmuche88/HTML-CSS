@@ -1,0 +1,26 @@
+.sub {
+    display: flex;
+    height: 450px;
+    background-image: url(img/back-sub.jpg);
+
+    &__com {
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+        color: #222224;
+    }
+
+    &__txt {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+        color: #222224;
+    }
+
+    &__com-txt {
+        margin: 30px 0px;
+        width: 350px;
+    }
+}
