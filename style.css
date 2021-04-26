@@ -57,6 +57,8 @@ body {
     height: 36em;
 }
 
+
+
 .title-topPage {
     font-weight: 700;
     font-size: 20px;
@@ -170,6 +172,7 @@ body {
 
 .item__price {
     margin-bottom: 2em;
+    margin-top: 1.8em;
 }
 
 .button__browse {
@@ -204,12 +207,73 @@ body {
     height: 15em;
 }
 
+.offers__title {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.offers__des {
+    color: #FBFBFB;
+    font-weight: 300;
+    font-size: 14px;
+    width: 22em;
+}
+
 .sub {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-image: url(img/back-sub.jpg);
-    height: 44em;
+    background-image: url(img/img-sub-phone.png);
+    height: 55em;
+}
+
+.sub__com-txt {
+    font-weight: 400;
+    font-size: 18px;
+    width: 18em;
+    margin-top: 2em;
+}
+
+.subscribe {
+    font-size: 24px;
+}
+
+.subscribe__end {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 1.5em;
+}
+
+.newsletter__txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter__mail {
+    display: flex;
+    flex-direction: row;
+}
+
+#newsletter-email {
+    height: 2em;
+    width: 16em;
+    border: none;
+    border-top-left-radius: 3em;
+    border-bottom-left-radius: 3em;
+    font-size: 14px;
+}
+
+#btn-newsletter {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.newsletter__btn {
+    background: #F16D7F;
+    padding: 0.8em;
+    border-start-end-radius: 3em;
+    border-end-end-radius: 3em;
 }
 
 .footer__logos {
@@ -241,6 +305,173 @@ body {
 
 .footer__logo-f, .footer__logo-i, .footer__logo-p, .footer__logo-t {
     padding-top: 6px;
+}
+
+/* Registration page */
+
+.regist {
+    margin: 4em 0.8em 10em;
+}
+
+.regist__top {
+    background: #F8F3F4;
+    height: 14.8em;
+}
+
+.regist__top-title {
+    font-weight: 400;
+    font-size: 24px;
+    color: #F16D7F;
+    text-align: center;
+    padding-top: 2.3em;
+}
+
+.label_title {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#fname, #lname, #email, #pwd {
+    width: -webkit-fill-available;
+    height: 3.5em;
+    margin-bottom: 2em;
+}
+
+#fname, #email {
+    margin-top: 2em;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3em;
+}
+
+#male, #female {
+    width: 1.7em;
+    height: 1.7em;
+    margin: 0em;
+}
+
+#lmale, #lfemale {
+    margin: auto 2em auto 1em;
+    font-weight: 300;
+    font-size: 11px;
+}
+
+.regist__form-txt {
+    font-weight: 300;
+    font-size: 13px;
+    color: #B1B1B1;
+    margin-bottom: 3em;
+}
+
+.button__join {
+        padding: 1.3em 3em;
+        background-color: #F16D7F;
+        text-align: center;
+        width: fit-content;
+        margin: 0em 0em 4em;
+}
+
+#btn-join {
+    color: white;
+}
+
+.regist__text {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.regist__text-line {
+    margin-bottom: 2em;
+}
+
+@media (min-width: 768px) {
+
+    .profil, .cart {
+        display: block;
+    }
+
+    .header__right {
+        margin: 0em 4em;
+    }
+
+    .profil {
+        margin-left: 2.5em;
+    }
+
+    .cart {
+        margin-left: 4em;
+    }
+
+    .top-page__img {
+        display: block;
+        height: 36em;
+    }
+
+    .deals {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .deal-1, .deal-2, .deal-3 {
+        height: 17em;
+        width: 23em;
+        margin-bottom: 2em;
+    }
+
+    .deal-4 {
+        height: 11em;
+        width: 74.3em;
+    }
+
+    .deal__title {
+        padding-top: 6.5em;
+    }
+
+    .items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sub {
+        background-image: url(img/back-sub.jpg);
+        height: 44em;
+    }
+
+    .regist__top-title {
+        text-align: left;
+        margin-left: 0.6em;
+    }
+
+    .regist {
+        display: flex;
+        flex-direction: row;
+        margin: 4em 1.6em 10em;
+    }
+
+    .regist__text {
+        margin: 0em 0em 0em 2.2em;
+    }
+
+    .footer {
+        flex-direction: row;
+        height: 8em;
+        justify-content: space-between;
+    }
+
+    .rights {
+        margin: auto 3em;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .footer__logos {
+        margin-right: 3em;
+    }
+
 }
 
 @media (min-width: 1440px) {
@@ -291,10 +522,8 @@ body {
     }
 
     .regist__top-title {
-        margin: 60px 230px;
-        font-size: 24px;
-        line-height: 29px;  
-        color: #F16D7F;
+        margin: auto 6em;
+        padding: 0em;
     }
 
     .top-page__img {
@@ -457,14 +686,19 @@ body {
     }
 
     .offer__delivery, .offer__discount, .offer__assurance {
-        width: 360px;
-        display: flex;
-        flex-direction: column;
-        height: 150px;
+        width: 36em;
+        height: 15em;
+    }
+
+    .offers__title {
+        font-weight: 400;
+        font-size: 20px;
     }
 
     .offers__des {
         font-weight: 300;
+        font-size: 14px;
+        width: 21em;
     }
 
     .regist {
@@ -546,11 +780,6 @@ body {
     .sub__com-txt {
         margin: 30px 0px;
         width: 350px;
-    }
-
-    .sub__txt {
-        display: flex;
-        flex-direction: column;
     }
 
     .subscribe {
