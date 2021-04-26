@@ -14,15 +14,15 @@
         <div class="header">
             <div class="header__left">
     
-                <a href="#"><img src="img/logo.svg" alt="logo"></a>
-                <a href="#"><img src="img/loupe.svg" alt="search"></a>
+                <a class="logo" href="#"><img src="img/logo.svg" alt="logo"></a>
+                <a class="loupe" href="#"><img src="img/loupe.svg" alt="search"></a>
             
             </div>
             <div class="header__right">
             
-                <a href="#"><img src="img/menu.svg" alt="menu"></a>
-                <a href="#"><img src="img/profil.svg" alt="profil"></a>
-                <a href="#"><img src="img/cart.svg" alt="cart"></a>
+                <a class="burger" href="#"><img src="img/menu.svg" alt="menu"></a>
+                <a class="profil" href="#"><img src="img/profil.svg" alt="profil"></a>
+                <a class="cart" href="#"><img src="img/cart.svg" alt="cart"></a>
             
             </div>
         </div>
@@ -43,9 +43,9 @@
 
                     <div class="radio">
                         <input type="radio" id="male" name="gender" value="male">
-                        <label for="male">Male</label><br>
+                        <label id="lmale" for="male">Male</label><br>
                         <input type="radio" id="female" name="gender" value="female">
-                        <label for="female">Female</label><br>
+                        <label id="lfemale" for="female">Female</label><br>
                     </div>
 
                   </form>
@@ -60,30 +60,35 @@
                   <div class="button__join"><a id="btn-join" href="#"><p>JOIN NOW</p></a></div>
             </div>
             <div class="regist__text">
-                <p>
-                    LOYALTY HAS ITS PERKS <br>
-                    Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join: <br>
-                    15% off welcome offer<br>
-                    Free shipping, returns and exchanges on all orders<br>
-                    $10 off a purchase on your birthday<br>
-                    Early access to products<br>
-                    Exclusive offers & rewards
-                </p>
+                   <p class="regist__text-line" >LOYALTY HAS ITS PERKS</p> 
+                   <p class="regist__text-line" >Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p> 
+                   <p class="regist__text-line" >15% off welcome offer</p>
+                   <p class="regist__text-line" >Free shipping, returns and exchanges on all orders</p>
+                   <p class="regist__text-line" >$10 off a purchase on your birthday</p>
+                   <p class="regist__text-line" >Early access to products</p>
+                   <p class="regist__text-line" >Exclusive offers & rewards</p>
             </div>
         </div>
         </section>
     </main>
-<div class="sub">
+    <div class="sub">
 
 
-    <div class="sub__com">
-        <img class="sub__com-img"  src="img/prof-com.png" alt="photo">
-        <p class="sub__com-txt">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+        <div class="sub__com">
+            <img class="sub__com-img"  src="img/prof-com.png" alt="photo">
+            <p class="sub__com-txt">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>           
+        </div>
+
+        <div class="newsletter">
+            <p class="newsletter__txt"><span class="subscribe">SUBSCRIBE</span><span class="subscribe__end"> FOR OUR NEWLETTER AND PROMOTION</span></p>
+
+            <div class="newsletter__mail">
+                <input type="email" id="newsletter-email" name="email" placeholder="Enter your E-mail">
+                <div class="newsletter__btn"><a id="btn-newsletter" href="#"><p>Subscribe</p></a></div>
+            </div>
+
+        </div>
     </div>
-
-    <p class="sub__txt"><span class="subscribe">SUBSCRIBE</span> <br><span class="subscribe__end">FOR OUR NEWLETTER AND PROMOTION</span></p>
-
-</div>
 
 <footer>
 <div class="footer">
