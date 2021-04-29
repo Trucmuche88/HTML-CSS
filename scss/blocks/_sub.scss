@@ -1,26 +1,14 @@
 .sub {
     display: flex;
-    height: 450px;
-    background-image: url(img/back-sub.jpg);
-
-    &__com {
-        text-align: center;
-        font-weight: 400;
-        font-size: 20px;
-        color: #222224;
-    }
-
-    &__txt {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-weight: 400;
-        font-size: 20px;
-        color: #222224;
-    }
+    flex-direction: column;
+    text-align: center;
+    background-image: url(img/img-sub-phone.png);
+    height: 55em;
 
     &__com-txt {
-        margin: 30px 0px;
-        width: 350px;
+        font-weight: 400;
+        font-size: 18px;
+        width: 18em;
+        margin-top: 2em;
     }
 }

@@ -1,0 +1,18 @@
+.newsletter__txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter__mail {
+    display: flex;
+    flex-direction: row;
+}
+
+#newsletter-email {
+    height: 2em;
+    width: 16em;
+    border: none;
+    border-top-left-radius: 3em;
+    border-bottom-left-radius: 3em;
+    font-size: 14px;
+}

@@ -21,3 +21,21 @@
         margin: 0px;
     }
 }
+
+.items-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6.4em;
+
+    &__title {
+        font-weight: 400;
+        font-size: 30px;
+        color: #222222;
+    }
+
+    &__txt {
+        font-size: 14px;
+        color: #9F9F9F;
+        font-weight: 400;
+    }
+}

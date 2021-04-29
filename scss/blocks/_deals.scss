@@ -1,0 +1,50 @@
+.deals {
+    text-align: center;
+    margin: 6em 0em;
+}
+
+.deal-1, .deal-2, .deal-3 {
+    height: 25em;
+    width: 34em;
+    margin-bottom: 3em;
+}
+
+.deal-1 {
+    background-image:url(img/deal-1.jpg);  
+}
+
+.deal-2 {
+    background-image:url(img/deal-2.jpg);
+}
+
+.deal-3 {
+    background-image:url(img/deal-3.jpg);
+}
+
+.deal-4 {
+    background-image:url(img/deal-4.jpg);
+    height: 11em;
+    width: 34em;
+
+    &__title {
+        padding-top: 1.5em;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 24px;
+    }
+}
+
+.deal__title {
+    padding-top: 10.5em;
+    color: #FFFFFF;
+}
+
+.deal__title-400 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.deal__title-700 {
+    font-weight: 700;
+    font-size: 24px;
+}

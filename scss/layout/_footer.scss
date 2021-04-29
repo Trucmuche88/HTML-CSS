@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    flex-direction: column-reverse;
+    background: #222224;
+    height: 14em;
+
+    &__logos {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__logo-f, &__logo-i, &__logo-p, &__logo-t {
+        padding-top: 6px;
+    }
+}
+
+.rights {
+    color: #FBFBFB;
+    margin-bottom: 0.9em;
+}
+
+.facebook, .insta, .pinterest, .twitter {
+    width: 30px;
+    height: 30px;
+    background-color: #ffff;
+    text-align: center;
+}
+
+.insta, .pinterest, .twitter {
+    margin-left: 8px;
+}
+

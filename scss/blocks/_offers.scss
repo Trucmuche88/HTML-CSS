@@ -1,0 +1,28 @@
+.offers {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #222224;
+    color: #FBFBFB;
+    height: 61em;
+    margin-top: 6em;
+
+    &__title {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    &__des {
+        color: #FBFBFB;
+        font-weight: 300;
+        font-size: 14px;
+        width: 22em;
+    }
+}
+
+.offer__delivery, .offer__discount, .offer__assurance {
+    width: 36em;
+    display: flex;
+    flex-direction: column;
+    height: 15em;
+}
