@@ -1,0 +1,19 @@
+.subscribe {
+    font-size: 24px;
+
+    &__end {
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 1.5em;
+    }
+}
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1440px) {
+
+    .subscribe__end {
+        font-size: 18px;
+    }
+}

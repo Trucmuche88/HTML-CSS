@@ -1,0 +1,42 @@
+.newsletter__txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter__mail {
+    display: flex;
+    flex-direction: row;
+}
+
+#newsletter-email {
+    height: 2em;
+    width: 16em;
+    border: none;
+    border-top-left-radius: 3em;
+    border-bottom-left-radius: 3em;
+    font-size: 14px;
+}
+
+#btn-newsletter {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.newsletter__btn {
+    background: #F16D7F;
+    padding: 0.8em;
+    border-start-end-radius: 3em;
+    border-end-end-radius: 3em;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1440px) {
+    
+    .newsletter__mail {
+        margin-right: 4em;
+    }
+}

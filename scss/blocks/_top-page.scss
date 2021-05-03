@@ -1,0 +1,57 @@
+.top-page {
+    display: flex;
+    flex-direction: row;
+    background-color: #F1E4E6;
+    height: 36em;
+
+    &__img {
+        display: none;
+    }
+}
+
+.title-topPage {
+    font-size: 20px;
+}
+
+.theBrand {
+    font-weight: 900;
+    font-size: 38px;
+}
+
+@media (min-width: 768px) {
+
+    .top-page__img {
+        display: block;
+        height: 36em;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .top-page {
+        display: flex;
+        background-color: #F1E4E6;
+        height: 76.4em;
+
+        &__img {
+            width: 80em;
+            height: 76.4em;
+            margin: 0em;
+        }
+
+        &__title {
+            width: 37.7em;
+        }
+    }
+
+    .title-topPage {
+        margin: 0px;
+        font-size: 32px;
+        text-align: left;
+    }
+
+    .theBrand {
+        font-weight: 900;
+        font-size: 48px;
+    }
+}

@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+    flex-direction: column-reverse;
+    background: #222224;
+    height: 14em;
+
+    &__logos {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__logo-f, &__logo-i, &__logo-p, &__logo-t {
+        padding-top: 0.6em;
+    }
+
+    &__rights {
+        color: #FBFBFB;
+        margin-bottom: 0.9em;
+    }
+}
+
+.facebook, .insta, .pinterest, .twitter {
+    width: 3em;
+    height: 3em;
+    background-color: #ffff;
+    text-align: center;
+}
+
+.insta, .pinterest, .twitter {
+    margin-left: 0.8em;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1440px) {
+    
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 8em;
+
+        &__logos {
+            margin: auto 18em;
+        }
+
+        &__rights {
+            margin: auto 14em;
+        }
+    }
+}
+
