@@ -10,23 +10,45 @@
     }
 
     &__logo-f, &__logo-i, &__logo-p, &__logo-t {
-        padding-top: 6px;
+        padding-top: 0.6em;
+    }
+
+    &__rights {
+        color: #FBFBFB;
+        margin-bottom: 0.9em;
     }
 }
 
-.rights {
-    color: #FBFBFB;
-    margin-bottom: 0.9em;
-}
-
 .facebook, .insta, .pinterest, .twitter {
-    width: 30px;
-    height: 30px;
+    width: 3em;
+    height: 3em;
     background-color: #ffff;
     text-align: center;
 }
 
 .insta, .pinterest, .twitter {
-    margin-left: 8px;
+    margin-left: 0.8em;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1440px) {
+    
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 8em;
+
+        &__logos {
+            margin: auto 18em;
+        }
+
+        &__rights {
+            margin: auto 14em;
+        }
+    }
 }
 

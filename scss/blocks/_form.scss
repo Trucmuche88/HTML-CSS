@@ -1,0 +1,82 @@
+.label_title {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#fname, #lname, #email, #pwd {
+    width: -webkit-fill-available;
+    height: 3.5em;
+    margin-bottom: 2em;
+}
+
+#fname, #email {
+    margin-top: 2em;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3em;
+}
+
+#male, #female {
+    width: 1.7em;
+    height: 1.7em;
+    margin: 0em;
+}
+
+#lmale, #lfemale {
+    margin: auto 2em auto 1em;
+    font-weight: 300;
+    font-size: 11px;
+}
+
+.button__join {
+    padding: 1.3em 3em;
+    background-color: #F16D7F;
+    text-align: center;
+    width: fit-content;
+    margin: 0em 0em 4em;
+}
+
+#btn-join {
+color: white;
+}
+
+@media (min-width: 1440px) {
+
+    input[type=text], [type=email], [type=password] {
+        width: 30em;
+        height: 45px;
+        margin-top: 2em;
+    }
+
+    input[type=radio] {
+        width: 17px;
+        height: 17px;
+    }
+
+    input[placeholder] {
+        font-weight: 300;
+        font-size: 13px;
+        opacity: 0.5;
+        margin: auto 0em;
+    }
+
+    .radio {
+        display: flex;
+        width: 50%;
+        margin: 2em 0em;
+    }
+
+    .button__join {
+        padding: 1.3em 3em;
+        background-color: #F16D7F;
+        width: 25%;
+        margin: 0em 0em 9.6em;
+    }
+
+    #btn-join {
+        color: white;
+    }
+}

@@ -31,3 +31,49 @@
     }
 }
 
+@media (min-width: 768px) {
+
+    .regist {
+            display: flex;
+            flex-direction: row;
+            margin: 4em 1.6em 10em;
+
+            &__top-title {
+                text-align: left;
+                margin-left: 0.6em;
+            }
+
+            &__text {
+                margin: 0em 0em 0em 2.2em;
+            }
+        }
+}
+
+@media (min-width: 1440px) {
+
+    .regist {
+        display: flex;
+        margin: 6.4em auto 0em;
+        justify-content: space-between;
+        width: 114em;
+        
+        &__form, &__text {
+        margin: 0px;
+        }
+
+        &__form {
+            width: 36em;
+        }
+
+        &__form-txt {
+            font-size: 13px;
+            margin: 2em 0em 4em;
+        }
+
+        &__text {
+            font-size: 24px;
+            width: 65em;
+        }
+    }
+}
+

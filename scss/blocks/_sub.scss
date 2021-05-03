@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-image: url(img/img-sub-phone.png);
+    background-image: url(../img/img-sub-phone.png);
     height: 55em;
 
     &__com-txt {
@@ -10,5 +10,33 @@
         font-size: 18px;
         width: 18em;
         margin-top: 2em;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .sub {
+        background-image: url(../img/back-sub.jpg);
+        height: 44em;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .sub {
+        display: flex;
+        flex-direction: row;
+
+        &__com, &__txt {
+            text-align: center;
+            font-weight: 400;
+            font-size: 20px;
+            color: #222224;
+        }
+
+        &__com-txt {
+            margin: 3em 0em;
+            width: 35em;
+        }
     }
 }

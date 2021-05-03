@@ -26,3 +26,25 @@
     flex-direction: column;
     height: 15em;
 }
+
+@media (min-width: 768px) {
+
+
+}
+
+@media (min-width: 1440px) {
+
+    .offers {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 34em;
+        text-align: center;
+        margin-top: 9.5em;
+
+        &__des {
+            width: 21em;
+        }
+    }
+    
+}

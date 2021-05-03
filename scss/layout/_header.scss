@@ -1,20 +1,22 @@
+.profil, .cart {
+    display: none;
+}
+
 .header {
     display: flex;
     background-color: black;
-    margin: 0px;
-    height: 75px;
+    margin: 0em;
+    height: 7.5em;
+    justify-content: space-between;
 
     &__left {
-        margin: 0px;
-        margin-left: 231px;
         display: flex;
-        width: 150px;
+        margin: 0em;
     }
-    
+
     &__right {
-        margin-right: 240px;
-        width: 150px;
         display: flex;
+        margin: 0em 1.6em;
     }
 }
 
@@ -24,4 +26,46 @@
 
 .loupe {
     margin: 2.8em 0em;
+}
+
+@media (min-width: 768px) {
+
+    .profil, .cart {
+        display: block;
+    }
+
+    .header__right {
+        margin: 0em 4em;
+    }
+
+    .profil {
+        margin-left: 2.5em;
+    }
+
+    .cart {
+        margin-left: 4em;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        height: 75px;
+    
+        &__left {
+            margin: 0em;
+            margin-left: 23em;
+            display: flex;
+            width: 15em;
+        }
+        
+        &__right {
+            margin-right: 24em;
+            width: 15em;
+            display: flex;
+        }
+    }
 }

@@ -1,14 +1,23 @@
 @import 
     'utils/variables',
     'utils/mixins',
+    'utils/colors',
 
     'base/main',
 
     'layout/header',
+    'layout/footer',
 
     'blocks/item',
     'blocks/regist',
-    'blocks/sub'
+    'blocks/sub',
+    'blocks/deals',
+    'blocks/newsletter',
+    'blocks/offers',
+    'blocks/subscribe',
+    'blocks/top-page',
+    'blocks/browse',
+    'blocks/form'
 
 
 ;
